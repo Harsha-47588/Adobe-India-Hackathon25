@@ -1,0 +1,26 @@
+{
+  "title": "1. एक नमूना इनपुट PDF (उदा., sample.pdf)",
+  "language": "hi",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "1. एक नमूना इनपुट PDF (उदा., sample.pdf)",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "2. �ा�प ��ता के  िलए एक नमूना �ाउंड �� थ आउटपुट (sample.json)",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "3. नमूना डॉकरफ़ाइल",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "4. नमूना समाधान",
+      "page": 2
+    }
+  ]
+}
