@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "input_documents": [
+      "learn stock market Basics(1).pdf",
+      "learn stock market Basics(10).pdf",
+      "learn stock market Basics(11).pdf",
+      "learn stock market Basics(2).pdf",
+      "learn stock market Basics(3).pdf",
+      "learn stock market Basics(4).pdf",
+      "learn stock market Basics(5).pdf",
+      "learn stock market Basics(6).pdf",
+      "learn stock market Basics(7).pdf",
+      "learn stock market Basics(8).pdf",
+      "learn stock market Basics(9).pdf"
+    ],
+    "persona": "Finance Student",
+    "job_to_be_done": "Learn the basic concepts of stock markets from the provided material.",
+    "processing_timestamp": "2025-07-28T23:58:49.855448"
+  },
+  "extracted_sections": [
+    {
+      "document": "learn stock market Basics(1).pdf",
+      "section_title": "Key points for all Investors",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(10).pdf",
+      "section_title": "Basics of Stock Selection",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(11).pdf",
+      "section_title": "Growing Custody Value",
+      "importance_rank": 3,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(3).pdf",
+      "section_title": "SEBI Investor Website",
+      "importance_rank": 5,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(4).pdf",
+      "section_title": "Why Do We Invest?",
+      "importance_rank": 6,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(5).pdf",
+      "section_title": "Economic Analysis",
+      "importance_rank": 7,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(6).pdf",
+      "section_title": "Financial Ratios",
+      "importance_rank": 8,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(7).pdf",
+      "section_title": "Price Charts",
+      "importance_rank": 9,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(8).pdf",
+      "section_title": "5 Steps Approach For Great Stock Picking",
+      "importance_rank": 10,
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(9).pdf",
+      "section_title": "We welcome your feedback and suggestions about",
+      "importance_rank": 11,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "learn stock market Basics(1).pdf",
+      "refined_text": "Sample refined content for 'Key points for all Investors'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(10).pdf",
+      "refined_text": "Sample refined content for 'Basics of Stock Selection'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(11).pdf",
+      "refined_text": "Sample refined content for 'Growing Custody Value'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(3).pdf",
+      "refined_text": "Sample refined content for 'SEBI Investor Website'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(4).pdf",
+      "refined_text": "Sample refined content for 'Why Do We Invest?'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(5).pdf",
+      "refined_text": "Sample refined content for 'Economic Analysis'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(6).pdf",
+      "refined_text": "Sample refined content for 'Financial Ratios'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(7).pdf",
+      "refined_text": "Sample refined content for 'Price Charts'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(8).pdf",
+      "refined_text": "Sample refined content for '5 Steps Approach For Great Stock Picking'...",
+      "page_number": 1
+    },
+    {
+      "document": "learn stock market Basics(9).pdf",
+      "refined_text": "Sample refined content for 'We welcome your feedback and suggestions about'...",
+      "page_number": 1
+    }
+  ]
+}
