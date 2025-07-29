@@ -64,7 +64,7 @@ Challenge_1a/
 
 ## ⚙️ Sample Implementation
 
-The provided `process_pdfs.py` demonstrates:
+The provided `main.py` demonstrates:
 
 * Scanning PDF files from the input directory
 * Generating dummy JSON data
@@ -81,10 +81,24 @@ The provided `process_pdfs.py` demonstrates:
 ## 🐳 Docker Configuration
 
 ```Dockerfile
-FROM --platform=linux/amd64 python:3.10
+FROM --platform=linux/amd64 python:3.10-slim
+
+# Set working directory
 WORKDIR /app
-COPY process_pdfs.py .
-CMD ["python", "process_pdfs.py"]
+
+# Copy necessary files
+COPY main.py .
+COPY requirements.txt .
+COPY schema ./schema
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Create input/output directories
+RUN mkdir -p /app/input /app/output
+
+# Run the main script
+CMD ["python", "main.py"]
 ```
 
 
@@ -96,12 +110,24 @@ CMD ["python", "process_pdfs.py"]
 ### Local Testing
 
 ```bash
-# Build the Docker image
-docker build --platform linux/amd64 -t pdf-processor .
+FROM --platform=linux/amd64 python:3.10-slim
 
-# Test with sample data
-docker run --rm -v $(pwd)/sample_dataset/pdfs:/app/input:ro -v $(pwd)/sample_dataset/outputs:/app/output --network none pdf-processor
-```
+# Set working directory
+WORKDIR /app
+
+# Copy necessary files
+COPY main.py .
+COPY requirements.txt .
+COPY schema ./schema
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Create input/output directories
+RUN mkdir -p /app/input /app/output
+
+# Run the main script
+CMD ["python", "main.py"]```
 
 
 
