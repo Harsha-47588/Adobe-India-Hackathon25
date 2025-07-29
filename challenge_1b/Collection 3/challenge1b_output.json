@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Italy-cities.pdf",
+      "Italy-cuisine.pdf",
+      "Italy-history.pdf",
+      "Italy-thingstodo.pdf",
+      "Italy-traditions.pdf",
+      "Italy-tripsandtricks.pdf"
+    ],
+    "persona": "Luxury Travel Content Creator",
+    "job_to_be_done": "Develop a comprehensive travel guide to the South of France, highlighting cities, cuisine, culture, and hidden gems.",
+    "processing_timestamp": "2025-07-28T23:58:50.330449"
+  },
+  "extracted_sections": [
+    {
+      "document": "Italy-cities.pdf",
+      "section_title": "Comprehensive Guide to the Major Cities",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Italy-history.pdf",
+      "section_title": "🇮🇹 A Brief History of Italy: The Shaping of a",
+      "importance_rank": 3,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Italy-cities.pdf",
+      "refined_text": "Sample refined content for 'Comprehensive Guide to the Major Cities'...",
+      "page_number": 1
+    },
+    {
+      "document": "Italy-history.pdf",
+      "refined_text": "Sample refined content for '🇮🇹 A Brief History of Italy: The Shaping of a'...",
+      "page_number": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_2",
+    "test_case_name": "testcase_2",
+    "description": "Auto-generated input for Collection 2"
+  },
+  "documents": [
+    {
+      "filename": "learn stock market Basics(1).pdf",
+      "title": "Key points for all Investors"
+    },
+    {
+      "filename": "learn stock market Basics(10).pdf",
+      "title": "Basics of Stock Selection"
+    },
+    {
+      "filename": "learn stock market Basics(11).pdf",
+      "title": "Growing Custody Value"
+    },
+    {
+      "filename": "learn stock market Basics(2).pdf",
+      "title": "learn stock market Basics(2).pdf"
+    },
+    {
+      "filename": "learn stock market Basics(3).pdf",
+      "title": "SEBI Investor Website"
+    },
+    {
+      "filename": "learn stock market Basics(4).pdf",
+      "title": "Why Do We Invest?"
+    },
+    {
+      "filename": "learn stock market Basics(5).pdf",
+      "title": "Economic Analysis"
+    },
+    {
+      "filename": "learn stock market Basics(6).pdf",
+      "title": "Financial Ratios"
+    },
+    {
+      "filename": "learn stock market Basics(7).pdf",
+      "title": "Price Charts"
+    },
+    {
+      "filename": "learn stock market Basics(8).pdf",
+      "title": "5 Steps Approach For Great Stock Picking"
+    },
+    {
+      "filename": "learn stock market Basics(9).pdf",
+      "title": "We welcome your feedback and suggestions about"
+    }
+  ],
+  "persona": {
+    "role": "Finance Student"
+  },
+  "job_to_be_done": {
+    "task": "Learn the basic concepts of stock markets from the provided material."
+  }
+}
