@@ -138,16 +138,46 @@ CMD ["python", "main_1b.py"]```
 
 ---
 
-## ✅ Validation Checklist
+Input/Output Format
+Input JSON Structure
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_XXX",
+    "test_case_name": "specific_test_case"
+  },
+  "documents": [{"filename": "doc.pdf", "title": "Title"}],
+  "persona": {"role": "User Persona"},
+  "job_to_be_done": {"task": "Use case description"}
+}
+Output JSON Structure
+{
+  "metadata": {
+    "input_documents": ["list"],
+    "persona": "User Persona",
+    "job_to_be_done": "Task description"
+  },
+  "extracted_sections": [
+    {
+      "document": "source.pdf",
+      "section_title": "Title",
+      "importance_rank": 1,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "source.pdf",
+      "refined_text": "Content",
+      "page_number": 1
+    }
+  ]
+}
+Key Features
+Persona-based content analysis
+Importance ranking of extracted sections
+Multi-collection document processing
+Structured JSON output with metadata
 
-* [ ] All PDFs in the input directory are processed
-* [ ] JSON output files are generated for each PDF
-* [ ] Output format matches the required structure
-* [ ] Output conforms to the schema in `sample_dataset/schema/output_schema.json`
-* [ ] Processing completes within 10 seconds for 50-page PDFs
-* [ ] Solution works without internet access
-* [ ] Memory usage stays within 16GB limit
-* [ ] Compatible with AMD64 architecture([HackerRank][3])
 
 ---
 
