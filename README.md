@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a solution for **Challenge 1A** of the Adobe India Hackathon 2025. The challenge focuses on extracting structured outlines from PDF documents and outputting them in a specified JSON format. The solution is containerized using Docker to meet specific performance and resource constraints.
+This repository contains a solution for **Challenge 1B** of the Adobe India Hackathon 2025. The challenge focuses on extracting structured outlines from PDF documents and outputting them in a specified JSON format. The solution is containerized using Docker to meet specific performance and resource constraints.
 
 ---
 
